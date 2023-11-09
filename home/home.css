@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=New+Tegomin&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --cor-azul-padrao: #00407A;
+}
+
+#body{
+    width: 360px;
+    height: 800px;
+    background-image: url('/site-pedagogia/sources/background.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+#logo-uniso{
+    text-align: center;
+}
+
+#txt-pi{
+    color: var(--cor-azul-padrao);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+    margin-bottom: 10px;
+}
+
+#txt-ped{
+    color: var(--cor-azul-padrao);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 94px;
+}
+
+#titulo{
+    text-align: center;
+    color: var(--cor-azul-padrao);
+    font-family: New Tegomin;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+#logo-pedagogia{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+}
+
+#btntxt{
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 53px;
+    border-radius: 32px;
+    color: #FFF;
+    background-color: var(--cor-azul-padrao);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
