@@ -15,7 +15,9 @@
 
 </head>
 
-<body>
+
+<body class="d-flex flex-column align-items-center">
+    <!-- HEADER -->
     <div class="header d-flex justify-content-between pt-4 px-2 top-0 w-100">
         <nav id="offcanvas">
             <button class="btn btn-light" type="button" data-bs-toggle="offcanvas"
@@ -38,7 +40,7 @@
                 <div class="offcanvas-body py-0">
                     <ul>
                         <li class="d-flex align-items-center py-3">
-                            <img src="/sources/icons/icon-home.svg" alt="icone home">
+                            <img src="/sources/icons/icon-home.svg" alt="icone de um livro">
                             <p class="mb-0 ms-3 f-16 my-auto">Home</p>
                         </li>
                         <li class="d-flex align-items-center py-3">
@@ -92,8 +94,17 @@
             const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
         </script>
     </div>
+    <!-- FIM DO HEADER -->
     <img src="/sources/cinderelaHome.png" width="100%" height="auto" alt="Imagem da Cinderela" class="py-3" >
 
+    <div class="cartao mx-1 my-3">
+        <div class="d-flex align-items-center bd-highlight mb-3">
+            <img src="/sources/icons/icon-home.svg" alt="icone de um livro" class="p-2 bd-highlight">
+            <p class="titulo p-2 bd-highlight">Introdução</p>
+            <img src="/sources/ratos-cards/rato1.svg" alt="imagem de um ratinho" class="ms-auto p-2 bd-highlight">
+        </div>
+        <p class="txt mx-2"> Estudo referente ao tema de gêneros textuais, que tem como principal finalidade a comunicação, muito utilizados na vida diária das pessoas, com características e funções específicas em cada um deles.</p>
+    </div>
 
 
 </body>
