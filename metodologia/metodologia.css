@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=New+Tegomin&family=Poppins:wght@400;500;600;700&display=swap');
 
+.tooltip-inner{
+    color: black !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+
 .cartao{
     background-color: #F9F9FF;
     border-radius: 0px 16px 16px 16px;
