@@ -1,1 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=New+Tegomin&family=Poppins:wght@400;500;600;700&display=swap');
+
+.cartao{
+    background-color: #F9F9FF;
+    border-radius: 0px 16px 16px 16px;
+    height: auto;
+    width: 90%;
+}
+
+.titulo{
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+}
+
+.txt{
+    color: #000;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
