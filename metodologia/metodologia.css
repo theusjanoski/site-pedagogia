@@ -32,3 +32,20 @@
     font-weight: 400;
     line-height: normal;
 }
+
+#accordion {
+    background-color: #f8f9fa; /* Cor de fundo desejada */
+  }
+
+  /* Estilize o acordeão */
+
+  .accordion-button {
+    background-color: #00407A !important; /* Cor de fundo do cabeçalho do acordeão */
+    color: #fff !important; /* Cor do texto no cabeçalho do acordeão */
+  }
+
+  .accordion-collapse {
+    background-color: #fff !important; /* Cor de fundo do corpo do acordeão */
+  }
+
+
