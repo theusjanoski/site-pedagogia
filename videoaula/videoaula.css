@@ -31,3 +31,23 @@
     font-weight: 400;
     line-height: normal;
 }
+
+#btnn{
+    display: flex;
+    justify-content: center;
+}
+
+#btnntxt{
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 53px;
+    border-radius: 32px;
+    color: #FFF;
+    background-color: #00407A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}

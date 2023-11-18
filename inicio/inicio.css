@@ -52,12 +52,12 @@
     margin-bottom: 80px;
 }
 
-#btn{
+#btnn{
     display: flex;
     justify-content: center;
 }
 
-#btntxt{
+#btnntxt{
     text-decoration: none;
     text-align: center;
     padding: 12px 53px;
