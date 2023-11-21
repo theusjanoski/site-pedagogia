@@ -37,3 +37,9 @@
     font-family: Poppins;
 
 }
+
+.modal-content{
+    background-color: #00407A !important; 
+    color: white !important;
+
+}
