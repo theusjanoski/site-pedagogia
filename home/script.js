@@ -1,9 +1,9 @@
-const ratoPopUp = window.document.querySelector("div.rato-pop-up")
+const ratoModalUp = window.document.querySelector("div.rato-Modal-up")
 
 setTimeout(() => {
-    ratoPopUp.classList.add("--rato-pop-up-on")
+    ratoModalUp.classList.add("--rato-Modal-up-on")
 }, 1000)
 
-ratoPopUp.addEventListener("click", () => {
-    ratoPopUp.classList.remove("--rato-pop-up-on")
+ratoModalUp.addEventListener("click", () => {
+    ratoModalUp.classList.remove("--rato-Modal-up-on")
 })

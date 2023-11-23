@@ -38,7 +38,7 @@
     }
 }
 
-div.rato-pop-up {
+div.rato-Modal-up {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,17 +53,17 @@ div.rato-pop-up {
     left: 0px;
 }
 
-div.--rato-pop-up-on {
+div.--rato-Modal-up-on {
     background-color: rgba(0, 0, 0, 0.345) !important;
     pointer-events: all !important;
     filter: opacity(100%) !important;
 }
 
-div.rato-pop-up__container {
+div.rato-Modal-up__container {
     transform: translateX(-1000%);
     transition: ease-in-out 1s;
 }
 
-div.--rato-pop-up-on div.rato-pop-up__container{
+div.--rato-Modal-up-on div.rato-Modal-up__container{
     transform: translateX(0%);
 }
