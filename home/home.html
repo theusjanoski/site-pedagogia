@@ -13,57 +13,17 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="website icon" type="png" href="/sources/logo-pedagogia.svg">
-
+    <script src="/home/script.js" defer></script>
 </head>
 
 <body class="d-flex flex-column align-items-center">
-    <style>
-        div.rato-pop-up {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            height: 100vh;
-            background-color: transparent;
-            pointer-events: none;
-            filter: opacity(0%);
-            transition: ease-in-out 0.35s;
-            position: fixed;
-            top: 0px;
-            left: 0px;
-        }
 
-        div.--rato-pop-up-on {
-            background-color: rgba(0, 0, 0, 0.345) !important;
-            pointer-events: all !important;
-            filter: opacity(100%) !important;
-        }
-
-        div.rato-pop-up__container {
-            transform: translateX(-1000%);
-            transition: ease-in-out 1s;
-        }
-
-        div.--rato-pop-up-on div.rato-pop-up__container{
-            transform: translateX(0%);
-        }
-    </style>
     <div class="rato-pop-up">
         <div class="rato-pop-up__container">
-            <h1>Content Here</h1>
+            <img src="/sources/rato-entrada.png" alt="" width="100%">
         </div>
     </div>
-    <script>
-        const ratoPopUp = window.document.querySelector("div.rato-pop-up")
 
-        setTimeout(() => {
-            ratoPopUp.classList.add("--rato-pop-up-on")
-        }, 1000)
-
-        ratoPopUp.addEventListener("click", () => {
-            ratoPopUp.classList.remove("--rato-pop-up-on")
-        })
-    </script>
 
     <!-- HEADER -->
     <div class="header d-flex justify-content-between mb-4 pt-4 px-2 top-0 w-100">
@@ -145,7 +105,7 @@
         </script>
     </div>
     <!-- FIM DO HEADER -->
-    <img src="/sources/cinderelaHome.png" width="100%" height="auto" alt="Imagem da Cinderela" class="py-3">
+    <img src="/sources/cinderelaHome.png" width="100%" height="auto" alt="Imagem da Cinderela" class="imagem-home py-3">
 
     <div class="cartao mx-1 my-3">
         <div class="d-flex align-items-center bd-highlight mb-2">

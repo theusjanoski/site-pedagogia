@@ -32,3 +32,38 @@
     font-weight: 400;
     line-height: normal;
 }
+@media screen and (min-width: 800px){
+    .imagem-home{
+        width: 30%;
+    }
+}
+
+div.rato-pop-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    pointer-events: none;
+    filter: opacity(0%);
+    transition: ease-in-out 0.35s;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+div.--rato-pop-up-on {
+    background-color: rgba(0, 0, 0, 0.345) !important;
+    pointer-events: all !important;
+    filter: opacity(100%) !important;
+}
+
+div.rato-pop-up__container {
+    transform: translateX(-1000%);
+    transition: ease-in-out 1s;
+}
+
+div.--rato-pop-up-on div.rato-pop-up__container{
+    transform: translateX(0%);
+}
